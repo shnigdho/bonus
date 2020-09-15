@@ -1,0 +1,58 @@
+h1:hover{
+    color: blue;
+
+}
+.mota:hover{
+    color: chartreuse;
+}
+input:focus{
+    color: maroon;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: opve;
+}
+p:first-child{
+    color: violet;
+    font-size: 10px;
+    font-weight: pghter;
+    background-color: teal;
+}
+p:last-child{
+    color: tomato;
+    font-size: xx-large;
+    font-weight: 600;
+    background-color: yellowgreen;
+}
+p:nth-child(2n+2){
+    color: thistle;
+}
+p:hover{
+    font-size: 50px;
+}
+body{
+    font-family: 'Ranchers', cursive;
+}
+.ala{
+    font-family: 'Ranchers', cursive;
+}
+a:visited{
+    color: pme;
+}
+a:hover{
+    color: grey;
+    font-size: 40px;
+}
+h1::before{
+    content:  "welled ";
+    font-size: 30px;
+    background-color: crimson;
+}
+h1::after{
+    content: "picaccu";
+    font-size: 30px;
+    background-color: crimson;
+
+}
+p::before{
+    content: "😘";
+}
